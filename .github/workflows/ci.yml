@@ -28,5 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
+<<<<<<< HEAD
     ##- run: npm test
     
+=======
+    - run: npm test
+>>>>>>> d691454a0eca5d04932042e8c09b0a6885f61108
